@@ -24,7 +24,8 @@ listint_t *swap_node(listint_t *node, listint_t **list)
 	return (current);
 }
 /**
- *cocktail_sort_list - is a function that sorts a doubly linked list of integers in ascending order using the Cocktail shaker sort algorithm
+ *cocktail_sort_list - function that sorts a doubly linked list
+ *of integers in ascending order using the Cocktail shaker sort algorithm
  *@list: list
  */
 void cocktail_sort_list(listint_t **list)
